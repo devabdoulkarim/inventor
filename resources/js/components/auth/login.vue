@@ -34,10 +34,10 @@
                         </form>
                         <hr>
                         <div class="text-center">
-                            <a class="font-weight-bold small" href="register.html">Create an Account!</a>
+                            <router-link to="/register" class="font-weight-bold small">Create an Account!</router-link>
                         </div>
                         <div class="text-center">
-                            <a class="font-weight-bold small" href="register.html">Mot de passe oublier ?</a>
+                            <router-link to="/forget" class="font-weight-bold small">Mot de passe oublier ?</router-link>
                         </div>
                         </div>
                     </div>
